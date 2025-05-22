@@ -168,3 +168,32 @@ body.layout {
   display: flex;
   flex-direction: column;
 }
+
+#container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+footer {
+  margin-top: auto;
+}
+main section {
+  margin-bottom: 40px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+main ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 15px;
+}
+
+main ul li {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  color: #8fff00;
+}
