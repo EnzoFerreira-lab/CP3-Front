@@ -37,3 +37,60 @@ h1 {
   color: #ccc;
   margin-top: 5px;
 }
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 20px;
+}
+
+nav ul li a {
+  color: #0ff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #8fff00;
+  text-shadow: 0 0 5px #8fff00;
+}
+
+main {
+  padding: 30px;
+  flex: 1;
+}
+
+.produto-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+
+.item {
+  background: #121212;
+  border: 2px solid #0ff;
+  border-radius: 15px;
+  padding: 20px;
+  width: 280px;
+  text-align: center;
+  box-shadow: 0 0 10px #00ffff33;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px #00ffffaa;
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
